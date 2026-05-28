@@ -5,10 +5,12 @@
     "dotnet lambda help",
     "All the command line options for the Lambda command can be specified in this file."
   ],
-  "profile": "default",
+  "profile": "admin-juernes",
   "region": "us-east-1",
   "configuration": "Release",
   "s3-prefix": "ApiPersonasAWS/",
   "template": "serverless.template",
-  "template-parameters": ""
+  "template-parameters": "",
+  "s3-bucket": "bucket-juernes-acv",
+  "stack-name": "ApiPersonasStack"
 }
